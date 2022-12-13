@@ -6,7 +6,7 @@
     "dev": "start-storybook -p 6006",
     "build": "build-storybook",
     "build-storybook": "build-storybook",
-    "lint": "next lint"
+    "lint": "cross-env TIMING=1 eslint \"**/*.ts*\""
   },
   "dependencies": {
     "alza-components": "*",

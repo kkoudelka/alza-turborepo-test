@@ -5,7 +5,7 @@
   "types": "./index.tsx",
   "license": "MIT",
   "scripts": {
-    "lint": "TIMING=1 eslint \"**/*.ts*\"",
+    "lint": "cross-env TIMING=1 eslint \"**/*.ts*\"",
     "test": "jest"
   },
   "devDependencies": {
@@ -15,6 +15,7 @@
     "eslint": "^7.32.0",
     "eslint-config-custom": "*",
     "react": "^18.2.0",
+    "ts-node": "^10.9.1",
     "tsconfig": "*",
     "typescript": "^4.5.2"
   },

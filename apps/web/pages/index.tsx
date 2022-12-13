@@ -1,10 +1,13 @@
-import { Button } from "ui";
+import type { NextPage } from "next";
+import { Availability } from "alza-components";
 
-export default function Web() {
+const Page: NextPage = () => {
   return (
     <div>
       <h1>Web</h1>
-      <Button />
+      <Availability />
     </div>
   );
-}
+};
+
+export default Page;

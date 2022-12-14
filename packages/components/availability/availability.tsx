@@ -2,7 +2,7 @@ import React from "react";
 
 import { AlzaText, AlzaButton } from "ui";
 
-export const Availability: React.FC = () => {
+const Availability: React.FC = () => {
   return (
     <div>
       <AlzaText text="Můžete mít včera" />
@@ -10,3 +10,5 @@ export const Availability: React.FC = () => {
     </div>
   );
 };
+
+export { Availability };
